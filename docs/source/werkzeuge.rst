@@ -1,3 +1,5 @@
+.. _werkzeuge:
+
 Gebrauch von Werkzeugen
 =======================
 
