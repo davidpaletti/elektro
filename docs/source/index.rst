@@ -16,15 +16,12 @@ to help you create fantastic documentation for your project.
 
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Inhalt
 
    werkzeuge
    leitungen
-
-
-Read the Docs feature overview
-------------------------------
-
-Learn more about configuring your automated documentation builds
-and some of the core features of Read the Docs.
+   stecker
+   leitungsverlegung
+   sicherheit
+   
