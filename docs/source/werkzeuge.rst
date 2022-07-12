@@ -20,6 +20,10 @@ invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
 justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
 dolor sit amet.
 
+.. image:: ../knipex-seitenschneider-180mm.jpg
+  :width: 300
+  :alt: Alternative text
+
 Kabelmesser
 -----------
 
