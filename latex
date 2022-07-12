@@ -1,0 +1,87 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Welcome to Overleaf --- just edit your LaTeX on the left,
+% and we'll compile it for you on the right. If you open the
+% 'Share' menu, you can invite other users to edit at the same
+% time. See www.overleaf.com/learn for more info. Enjoy!
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{blindtext}
+\usepackage{imakeidx}
+\usepackage{acro}
+
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+
+
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={150mm,247mm},
+ left=30mm,
+ right=30mm,
+ top=30mm,
+ bottom=20mm,
+ }
+
+\pagestyle{fancy}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\title{Lehrgang Elektro}
+\author{Nils Holgersson}
+\date{\today}
+
+\DeclareAcronym{kV}{
+  short=kV,
+  long=Kilovolt,
+}
+\DeclareAcronym{CEE}{
+  short=CEE,
+  long=Commission internationale de réglementation en vue de l’approbation de l’équipement électrique,
+}
+
+
+\makeindex
+
+\begin{document}
+
+\maketitle
+\newpage
+
+\tableofcontents
+\newpage
+
+\section{Gebrauch von Werkzeugen}
+\subsection{Die Grundlegenden Werkzeuge}
+In der Elektrotechnik\index{Elektrotechnik} gibt es einiges.
+Ja.
+zum Beispiel Schalten in Anlagen mit 10 \ac{kV}. Oder auch \acs{CEE}-Stecker.
+\blindtext
+\subsubsection{Seitenschneider}
+\blindtext
+\subsubsection{Kabelmesser}
+\blindtext
+\subsubsection{Kombizange}
+\blindtext
+\subsection{Sicherheitshinweis}
+\blindtext
+\newpage
+
+\section{Kabel und Leitungen}
+\blindtext
+\subsection{Arten von Leitungen}
+\blindtext
+\newpage
+
+\section{Abkürzungen}
+\printacronyms
+\newpage
+
+\printindex
+
+
+\end{document}
